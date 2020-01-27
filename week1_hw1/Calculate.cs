@@ -34,7 +34,7 @@ namespace week1_hw1
             // Enumerate each item in the dictionary
             foreach (var item in incomeDict)
             {
-                Console.WriteLine("With the education attainment of {0}, the estimated income over {1} years is {2}." , item.Key.ToString(), yearToWork, (item.Value * totalWorkWeek).ToString("C", CultureInfo.CurrentCulture));
+                Console.WriteLine($"With the education attainment of {item.Key}, the estimated income over {yearToWork} years is {(item.Value * totalWorkWeek):C}.");
             }
 
             Console.ReadLine();
