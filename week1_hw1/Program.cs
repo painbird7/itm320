@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using week1_hw1;
 
 /*
     Author: Jay Han
-
+    Date: 1/26/2020
+    ITM320 HW1
     
+    Program Requirements:
     a.Design an application that calculates the amount of salary a person can make in their "working lifetime" with the following criteria
     1) Less than a high school diploma=520
     2) Graduated with a high school diploma, no college=712
@@ -27,27 +30,15 @@ namespace Week1_HW1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-
-            var startingAge = 0;
-
-            Console.WriteLine("What is your expected starting working age?");
-            var question = Int32.TryParse(Console.ReadLine(), out startingAge);
-            if (question)
-            {
-                Console.WriteLine(startingAge);
-            }
-            else
-            {
-                Console.WriteLine("The input is not a number, ?");
-            }
-
-            Console.WriteLine(startingAge);
-            Console.ReadKey();
-
-
-
+            // Initialize UserInput class and assign the output to age variable
+            UserInput getUserInput = new UserInput();
+            int age = getUserInput.Input();
+            
+            // Initialize Calculate class and pass age variable to Income method.
+            Calculate accumulateIncome = new Calculate();
+            accumulateIncome.Income(age);
         }
     }
 }
