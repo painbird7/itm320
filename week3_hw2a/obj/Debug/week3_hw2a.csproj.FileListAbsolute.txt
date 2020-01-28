@@ -1,0 +1,6 @@
+C:\ITM320\itm320\week3_hw2a\bin\Debug\week3_hw2a.exe.config
+C:\ITM320\itm320\week3_hw2a\bin\Debug\week3_hw2a.exe
+C:\ITM320\itm320\week3_hw2a\bin\Debug\week3_hw2a.pdb
+C:\ITM320\itm320\week3_hw2a\obj\Debug\week3_hw2a.csprojAssemblyReference.cache
+C:\ITM320\itm320\week3_hw2a\obj\Debug\week3_hw2a.exe
+C:\ITM320\itm320\week3_hw2a\obj\Debug\week3_hw2a.pdb
