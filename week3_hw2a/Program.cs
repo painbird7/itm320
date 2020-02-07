@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 /*
     Author: Jay Han
-    Date: 1/27/2020
+    Date: 2/2/2020
     ITM320 HW2a
 
     1) Design an app that measures the user's BMI (Body Mass Index) and diagnose the user' s current health condition based on their BMI Result. The entire app contains 3 classes; HeightConverter , BMICalculator and BMIRangeDiagnostic. 
@@ -32,20 +32,30 @@ namespace week3_hw2a
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter your height in ft and inch comma separated form such as 6,2.5 for 6ft 2.5\" and 6,0 for 6ft even.");
-            string userInput = Console.ReadLine();
-            // TODO validate the input
-
-
-            var inputList = userInput.Split(',').ToList();
-            foreach (var item in inputList)
-            {
-                
-            }
+            // Get input height
+            Console.WriteLine("Please enter the height in ft and inch comma separated form such as 6,2.5 for 6ft 2.5\" and 6,0 for 6ft even.");
+            string userInputHeight = Console.ReadLine();
+            var inputList = userInputHeight.Split(',').ToList();
+            
+            // Convert input height to inches
             HeightConverter convertHeight = new HeightConverter();
-            decimal userHeightInch = convertHeight.HeightConversion(inputList[0], inputList[1]);
+            double userHeightInch = convertHeight.HeightConversion(Convert.ToInt16(inputList[0]), Convert.ToDouble(inputList[1]));
+            Console.WriteLine($"The height is {userHeightInch} inches.");
 
+            // Get input weight
+            Console.WriteLine("Please enter the weight in pounds.");
+            double userWeightPound = Convert.ToDouble(Console.ReadLine());
 
+            // Calculate BMI
+            BMICalculator myBmiCalculator = new BMICalculator();
+            double userBMI = Math.Round(myBmiCalculator.CalculateBMI(userHeightInch, userWeightPound), 2);
+            Console.WriteLine($"BMI is {userBMI}.");
+
+            // Compare BMI result and display diagnostics
+            BMIRangeDiagnostic myBmiRangeDiagnostic = new BMIRangeDiagnostic();
+            Console.WriteLine($"The BMI result of input physique is considered as {myBmiRangeDiagnostic.DetermineBMIDiagnosis(userBMI)}");
+
+            Console.ReadLine();
         }
     }
 }

@@ -8,10 +8,10 @@ namespace week3_hw2a
 {
     class HeightConverter
     {
-        public decimal HeightConversion(int foot, decimal inch)
+        public double HeightConversion(int foot, double inch)
         {
             const int footToInch = 12;
-            decimal totalInch = (footToInch * foot) + inch;
+            double totalInch = (footToInch * foot) + inch;
             return totalInch;
         }
     }
