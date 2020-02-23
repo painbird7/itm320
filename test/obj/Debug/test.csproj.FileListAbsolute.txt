@@ -1,0 +1,6 @@
+C:\ITM320\itm320\test\bin\Debug\test.exe.config
+C:\ITM320\itm320\test\bin\Debug\test.exe
+C:\ITM320\itm320\test\bin\Debug\test.pdb
+C:\ITM320\itm320\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\ITM320\itm320\test\obj\Debug\test.exe
+C:\ITM320\itm320\test\obj\Debug\test.pdb

@@ -16,14 +16,20 @@ using System.Threading.Tasks;
     Song Object "Song3"
     Song Name =  "Lounge Act" Song Singer =  "Nirvana" Song Length = 4.10
     Finally, output all the album info along with all of the songs to the screen.   < 5 pts >
-*/
 
-namespace week4_hw3
+*/
+namespace Week5_HW3b
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Song song1 = new Song("On A Plain", "Nirvana", 3.30);
+            Song song2 = new Song("Endless, Nameless", "Nirvana feat Pearl Jam", 5.00);
+            Song song3 = new Song("Lounge Act", "Nirvana", 4.10);
+            Album nirvanaAlbum = new Album("Nevermind", "Geffen", 1991, song1, song2, song3);
+            Console.WriteLine(nirvanaAlbum);
+            Console.ReadLine();
         }
     }
 }

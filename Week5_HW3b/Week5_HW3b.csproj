@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33DE0F30-D29C-47E2-8B5D-0AA900847ADB}</ProjectGuid>
+    <ProjectGuid>{B2561DF2-3D92-4EFA-9798-1789F525FDA6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>week4_hw3</RootNamespace>
-    <AssemblyName>week4_hw3</AssemblyName>
+    <RootNamespace>Week5_HW3b</RootNamespace>
+    <AssemblyName>Week5_HW3b</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

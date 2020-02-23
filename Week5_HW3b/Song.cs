@@ -16,14 +16,26 @@ using System.Threading.Tasks;
     Song Object "Song3"
     Song Name =  "Lounge Act" Song Singer =  "Nirvana" Song Length = 4.10
     Finally, output all the album info along with all of the songs to the screen.   < 5 pts >
+
 */
 
-namespace week4_hw3
+namespace Week5_HW3b
 {
-    class Program
+    public class Song
     {
-        static void Main(string[] args)
+        public Song(string songName, string singerName, double songLength)
         {
+            MySongName = songName;
+            MySingerName = singerName;
+            MySongLength = songLength;
+        }
+        public string MySongName { get; set; }
+        public string MySingerName { get; set; }
+        public double MySongLength { get; set; }
+        public override string ToString()
+        {
+            return "\n" + "\t" + "Song Name: " + MySongName + "\n" + "\t" + "SingerName: " + MySingerName + "\t" + "\n" + "\t" + "Song Length: " + MySongLength + " Song 1SongName mins";
         }
     }
+
 }
