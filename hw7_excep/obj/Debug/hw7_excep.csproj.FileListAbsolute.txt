@@ -1,0 +1,6 @@
+C:\ITM320\itm320\hw7_excep\bin\Debug\hw7_excep.exe.config
+C:\ITM320\itm320\hw7_excep\bin\Debug\hw7_excep.exe
+C:\ITM320\itm320\hw7_excep\bin\Debug\hw7_excep.pdb
+C:\ITM320\itm320\hw7_excep\obj\Debug\hw7_excep.csprojAssemblyReference.cache
+C:\ITM320\itm320\hw7_excep\obj\Debug\hw7_excep.exe
+C:\ITM320\itm320\hw7_excep\obj\Debug\hw7_excep.pdb

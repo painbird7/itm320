@@ -1,0 +1,5 @@
+C:\ITM320\itm320\hw6_2\bin\Debug\hw6_2.dll
+C:\ITM320\itm320\hw6_2\bin\Debug\hw6_2.pdb
+C:\ITM320\itm320\hw6_2\obj\Debug\hw6_2.csprojAssemblyReference.cache
+C:\ITM320\itm320\hw6_2\obj\Debug\hw6_2.dll
+C:\ITM320\itm320\hw6_2\obj\Debug\hw6_2.pdb

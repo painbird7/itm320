@@ -1,0 +1,5 @@
+C:\Exam2Q1DLL\bin\Debug\Exam2Q1DLL.dll
+C:\Exam2Q1DLL\bin\Debug\Exam2Q1DLL.pdb
+C:\Exam2Q1DLL\obj\Debug\Exam2Q1DLL.csprojAssemblyReference.cache
+C:\Exam2Q1DLL\obj\Debug\Exam2Q1DLL.dll
+C:\Exam2Q1DLL\obj\Debug\Exam2Q1DLL.pdb

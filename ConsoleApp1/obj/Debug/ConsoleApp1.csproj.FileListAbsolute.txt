@@ -1,0 +1,6 @@
+C:\ITM320\itm320\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\ITM320\itm320\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\ITM320\itm320\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\ITM320\itm320\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\ITM320\itm320\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\ITM320\itm320\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

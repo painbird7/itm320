@@ -1,0 +1,9 @@
+C:\ITM320\itm320\hw6_exe\bin\Debug\hw6_exe.exe.config
+C:\ITM320\itm320\hw6_exe\bin\Debug\hw6_exe.exe
+C:\ITM320\itm320\hw6_exe\bin\Debug\hw6_exe.pdb
+C:\ITM320\itm320\hw6_exe\bin\Debug\hw6_2.dll
+C:\ITM320\itm320\hw6_exe\bin\Debug\hw6_2.pdb
+C:\ITM320\itm320\hw6_exe\obj\Debug\hw6_exe.csprojAssemblyReference.cache
+C:\ITM320\itm320\hw6_exe\obj\Debug\hw6_exe.csproj.CopyComplete
+C:\ITM320\itm320\hw6_exe\obj\Debug\hw6_exe.exe
+C:\ITM320\itm320\hw6_exe\obj\Debug\hw6_exe.pdb

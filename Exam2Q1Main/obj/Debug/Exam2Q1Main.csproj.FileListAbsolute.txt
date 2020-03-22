@@ -1,0 +1,9 @@
+C:\Exam2Q1Main\bin\Debug\Exam2Q1Main.exe.config
+C:\Exam2Q1Main\bin\Debug\Exam2Q1Main.exe
+C:\Exam2Q1Main\bin\Debug\Exam2Q1Main.pdb
+C:\Exam2Q1Main\bin\Debug\Exam2Q1DLL.dll
+C:\Exam2Q1Main\bin\Debug\Exam2Q1DLL.pdb
+C:\Exam2Q1Main\obj\Debug\Exam2Q1Main.csprojAssemblyReference.cache
+C:\Exam2Q1Main\obj\Debug\Exam2Q1Main.csproj.CopyComplete
+C:\Exam2Q1Main\obj\Debug\Exam2Q1Main.exe
+C:\Exam2Q1Main\obj\Debug\Exam2Q1Main.pdb

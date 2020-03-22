@@ -1,0 +1,6 @@
+C:\ITM320\itm320\Week7_HW5\bin\Debug\Week7_HW5.exe.config
+C:\ITM320\itm320\Week7_HW5\bin\Debug\Week7_HW5.exe
+C:\ITM320\itm320\Week7_HW5\bin\Debug\Week7_HW5.pdb
+C:\ITM320\itm320\Week7_HW5\obj\Debug\Week7_HW5.csprojAssemblyReference.cache
+C:\ITM320\itm320\Week7_HW5\obj\Debug\Week7_HW5.exe
+C:\ITM320\itm320\Week7_HW5\obj\Debug\Week7_HW5.pdb
